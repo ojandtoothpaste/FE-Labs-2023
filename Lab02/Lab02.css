@@ -69,9 +69,15 @@ html {
   background: linear-gradient(180deg, #84daf5, #89ffff, #affffa, #ffffff);
 }
 body {
+<<<<<<< HEAD
   margin-bottom: 1rem;
   margin-left: 5rem;
   margin-right: 5rem;
+=======
+   bottom-margin: 1rem
+   left-margin: 5rem
+   right-,argin: 5rem
+>>>>>>> 40eb194c3ba806fd7796a23fd177c303f4626584
 }
 
 h1 {
