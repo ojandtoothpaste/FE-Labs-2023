@@ -39,6 +39,8 @@ let alphabetString = 'abcdefghijklmnopqrstuvwxyz';
  * 
  * 
  * ↓ YOUR CODE HERE ↓ */
+let abcArray = alphabetString.split('');
+console.log(abcArray);
 
 
 
@@ -58,6 +60,8 @@ let alphabetArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
  * 
  * 
  * ↓ YOUR CODE HERE ↓ */
+alphabetArray.reverse();
+console.log(alphabetArray.join(''));
 
 
 
@@ -81,6 +85,14 @@ let array1 = [1, 5, 6, 9, 10, 14];
  * 
  * 
  * ↓ YOUR CODE HERE ↓ */
+console.log('Step 1: Array1', array1);
+console.log('Step 2: 3rd Element', array1[2]);
+console.log("Step 3: Last element ", array1[array1.length - 1]);
+array1.push(16, 3);
+console.log('Step 4: Updated Array1', array1);
+console.log('Step 5: 3rd Element', array1[2]);
+console.log('Step 6: Last Element', array1[array1.length -1]);
+
 
 
 
@@ -101,6 +113,18 @@ Question 4: Todo List \n`);
  * 
  * 
  * ↓ YOUR CODE HERE ↓ */
+let myToDoList = [];
+myToDoList.push('Item1', 'Item2', 'Item3');
+console.log(myToDoList);
+
+myToDoList.splice(1,1);
+console.log(myToDoList);
+
+let yourToDolist = ['Item4', 'Item5'];
+console.log(yourToDolist);
+
+let ourToDoList = [...myToDoList, ...yourToDolist];
+console.log(ourToDoList);
 
 
 
