@@ -72,9 +72,14 @@
 
 /* -- ALL YOUR COMPONENT/STYLE IMPORTS HERE -- */
 import './App.css'
+import Nav from './Nav.jsx';
+import WelcomeSection from './WelcomeSection.js';
 
 function App() {
-  return <div className="App"></div>
+  return <div className="App">
+    <Nav/>
+    <WelcomeSection/>
+  </div>
 }
 
 export default App
