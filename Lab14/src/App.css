@@ -38,3 +38,17 @@
   background-color: #eeeeee;
   padding: 1em;
 }
+
+.appointmentTable {
+  border: 3px double black;
+  background-color: #eeeeee;
+  margin: 10px auto;
+  text-align: center;
+}
+.appointmentTable thead {
+  font-size: 20px;
+}
+.appointmentTable td {
+  padding: 10px;
+  text-transform: uppercase;
+}
