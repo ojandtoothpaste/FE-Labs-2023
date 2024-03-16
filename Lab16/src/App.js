@@ -54,6 +54,9 @@ export default function App() {
             <li>
               <Link to="/about">About</Link>
             </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </nav>
 
@@ -67,6 +70,10 @@ export default function App() {
           </Route>  */}
 
         <Switch>
+        <Route path="/contact">
+            <Contact />
+          </Route>
+          
           <Route path="/about">
             <About />
           </Route>
@@ -74,6 +81,7 @@ export default function App() {
           <Route path="/">
             <Home />
           </Route>
+          
         </Switch>
       </div>
     </Router>
